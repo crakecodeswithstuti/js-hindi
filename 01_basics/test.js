@@ -1,1 +1,1 @@
-console.log("stuti")
+console.log("stuti") // console is a source code  
