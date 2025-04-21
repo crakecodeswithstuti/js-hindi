@@ -103,3 +103,40 @@ console.log(2%2);  // if % is used it means remainder
 */
 
 
+let str1 = "hello"
+let str2 = "stuti"
+
+let str3 = str1 + str2
+console.log(str1   +   str2);
+// or er can write console.log(str3);
+
+console.log("1"  + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+// in javascript if first term is in string then all other tems will consider as string and
+//  is last one is string then all the terms/elements before will convert as it is and we can learn this from ecma2025 website
+
+console.log (3+ 4 * 5 % 3); // these type of codes only used for question/exams perpose not worth in real life 
+// such confusing codes are not gud instead we can use parantheses() to distinguish btw which terms are to be solve first,
+//  if we will write without paranthesis the code pole request will not merge 
+
+//console.log ((3+ 4) * 5 % 3); 
+
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+
+
+
+ 
+
+
+
