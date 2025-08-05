@@ -1,0 +1,18 @@
+    <script>
+        function checkDay() {
+            const day = document.getElementById('dayInput').value.trim().toLowerCase();
+            let message;
+
+            const workingDays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+
+            if (day === 'sunday') {
+                message = "Sunday is a holiday.";
+            } else if (workingDays.includes(day)) {
+                message = day.charAt(0).toUpperCase() + day.slice(1) + " is a working day.";
+            } else {
+                message = "Please enter a valid day (Monday to Sunday).";
+            }
+
+            document.getElementById('result').innerText = message;
+        }
+    </script>
