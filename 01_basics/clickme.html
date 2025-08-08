@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Confirm Click Example</title>
+</head>
+<body>
+    <button onclick="showConfirm()">Click Me</button>
+
+    <script>
+        function showConfirm() {
+            // Show confirm dialog, returns true if OK clicked, false if Cancel clicked
+            const userClickedOK = confirm("Do you want to proceed?");
+
+            if (userClickedOK) {
+                alert("You clicked OK.");
+            } else {
+                alert("You clicked Cancel.");
+            }
+        }
+    </script>
+</body>
+</html>
