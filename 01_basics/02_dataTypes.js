@@ -29,6 +29,7 @@ let isLKoggedIn = false
 
 // Javascript is a dynamically typed language
 //typescript is a statically typed language 
+ 
 const score:number = 100 // number define
 const scoreValue = 100.3 // number define
 const isLoggedIn = false // boolean
@@ -48,7 +49,12 @@ console.log(typeof [1,2,3,4]); // object
 console.log(typeof {name:"stuti", age:20}); // object
 console.log(typeof function(){}); // function
 
+
 // JS is a case sensitive language
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId);
 
 
 
